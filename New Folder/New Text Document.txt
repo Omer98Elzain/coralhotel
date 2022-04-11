@@ -1,0 +1,12 @@
+<ul>
+    
+  <li id="or1li-footer"><a href=""><img src="image\images\32\youtube_play5_32px.png"></a></li>
+   <li id="or1li-footer"><a href=""><img src="image\images\32\twitter5_32px.png"></a></li>
+   <li id="or1li-footer"><a href=""><img src="image\images\32\gmail5_32px.png"></a></li>
+   <li id="or1li-footer"><a href=""><img src="image\images\32\whatsapp5_32px.png"></a></li>
+   <li id="or1li-footer"><a href=""><img src="image\images\32\facebook5_32px.png"></a></td>
+   <p id="or-foot-p"><b>ÌãíÚ ÍŞæŞ ® ÇáÍİÙ æÇáäÔÑ æÇáØÈÇÚÉ © ãÍİæÙÉ áÏì yuram-zain and hisham-altayeb </b></p>
+   <li id="img-footer"> <picture><img alt="Logo" src="image\images\logo-long.png">
+          </picture></td>
+  
+  </ul>

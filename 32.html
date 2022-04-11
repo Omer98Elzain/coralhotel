@@ -1,0 +1,61 @@
+<?php
+$username=$_POST["username"];
+$pass=$_POST["pass"];
+
+$conn=mysqli_connect ('localhost','root','','faron_pro');
+if( mysqli_connect_errno()){
+
+echo"filed to connect". mysqli_connect();
+}
+$query =mysqli_query($conn,"select *from faron1  where username='$username' and pass='$pass'");
+if (mysqli_num_rows($query)!=0)
+{
+
+echo"wellcome";
+echo" forgen exchange";
+}
+else
+{
+echo "fail";
+exit();
+}
+?>
+<html>
+<body><link rel="stylesheet" href="styles1.css"/>
+
+<br>
+<form action ="4.html" method ="post">
+<input type="submit" name="faron1"value="Al reyal suodi">
+</form>
+
+<form action ="5.html" method ="post">
+<input type="submit" name="faron1"value="Al Dolor USA ">
+</form>
+
+<form action ="6.html" method ="post">
+<input type="submit" name="faron1"value="Al denar Alkwiti">
+</form>
+
+<form action ="7.html" method ="post">
+<input type="submit" name="faron1"value="Al drham UAE">
+</form>
+
+<form action ="8.html" method ="post">
+<input type="submit" name="faron1"value="egyption bound">
+</form>
+
+
+<form action ="9.html" method ="post">
+<input type="submit" name="faron1"value="AL franck">
+</form>
+
+<form action ="10.html" method ="post">
+<input type="submit" name="faron1"value="pageseven">
+</form>
+
+
+
+
+
+</body>
+</html>
